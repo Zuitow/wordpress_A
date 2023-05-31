@@ -1,0 +1,260 @@
+/*
+Theme Name: Healthcare Clinic
+Theme URI: https://www.ovationthemes.com/wordpress/free-healthcare-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Healthcare Clinic is ideal for drugstores, elements, health care, medical, and website services. Its minimalist design makes it stand out from many other themes. Any health clinic website can be created using this theme to attract more potential patients to your services because this theme contains all the necessary elements for building a website that can display detailed information regarding your products and services. The WP theme has multiple inner pages that can be utilized to demonstrate its features effectively. Your website is well organized with distinct sections. The contact information is provided in the about us and contact section. There are options for simple and mega menus for a more engaging and simple navigation experience. You may also design contact forms using this plugin since this theme supports the Contact Form 7 plugin.  In addition to being optimized for the theme. Elementor kit may also be used with other plugins to support Elementor.
+Version: 1.6
+Requires PHP: 7.2
+Tested up to: 6.2
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: healthcare-clinic
+Template: medical-care
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, education, food-and-drink, blog
+
+Healthcare Clinic WordPress Theme, Copyright 2022 pewilliams
+Healthcare Clinic is distributed under the terms of the GNU GPL
+
+Healthcare Clinic WordPress Theme is child theme of Medical Care WordPress Theme, Copyright 2022 pewilliams
+Medical Care WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+body{
+    letter-spacing: 0;
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+}
+.scrollup,a.more-link,button.search-submit,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.main-menu ul ul,.getstarted-btn a,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.box-button a,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.page-numbers.current,.page-numbers:hover,.prev.page-numbers, .next.page-numbers,.menu_box,.menu_box.fixed,.site-info,button, input[type="button"], input[type="submit"]{
+	background: #1370b5;
+}
+a.page-numbers:hover,.site-title, .site-title a,.logo h1 a,.logo p,#slider .inner_carousel a,.mid-inner-box:hover a,.mid-inner-box:hover p,.mid-inner-box:hover i{
+	color: #fff;
+}
+.wrap_figure {
+    border-top: solid 8px #1370b5;
+}
+.logo h1{
+	font-weight: 600;
+	font-size: 25px;
+    text-transform: none;
+}
+p.site-description {
+    font-size: 14px;
+}
+.preloader{
+	background: #f1f1f1;
+}
+.main-menu li a {
+    color: #fff;
+    padding: 6px 10px;
+    font-weight: 600;
+}
+.main-menu ul{
+    margin: 0;
+}
+.menu_box {
+    border-radius: 40px;
+    padding: 6px 25px;
+}
+#mySidenav{
+    text-align: right;
+}
+.scrollup.is-active:hover, .scrollup.is-active:focus,.main-menu ul ul a:hover,.getstarted-btn a:hover,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,.box-button a:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce span.onsale,.copyright{
+    background: #25304c;
+}
+a,h1, h2, h3, h4, h5, h6,#Category-section .postbox.smallpostimage:hover h3 a,#sidebar select,#sidebar th,#sidebar td,#sidebar caption,.main-menu ul li a:active,#sidebar .tagcloud a, .site-footer .tagcloud a,a.page-numbers{
+	color: #1370b5;
+}
+.sticky{
+	border-color: #25304c;
+}
+#slider{
+    background: #fff;
+}
+#slider .inner_carousel h2 {
+    margin-bottom: 20px;
+}
+#slider .carousel-caption {
+    left: 45%;
+    right: 20%;
+}
+#slider .inner_carousel h2, .getstarted-btn,.inner_carousel{
+    color: #003153;
+}
+.getstarted-btn a{
+    padding: 15px;
+}
+.getstarted-btn{
+    margin: 30px 0 0;
+}
+#our-services {
+    background: #f1f1f1;
+}
+#middle-sec {
+    margin-top: -8%;
+}
+.middle-sec-box h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.mid-inner-box i {
+    font-size: 60px;
+    color: #1370b5;
+}
+.mid-inner-box h4 {
+    font-size: 25px;
+}
+.mid-inner-box h4 a,#Category-section h3 a,#sidebar h3,#sidebar ul li a{
+    color: #003153;
+}
+.mid-inner-box p {
+    line-height: 2;
+}
+.mid-inner-box {
+    box-shadow: 0 0 12px 4px #ccc;
+    background: #fff;
+}
+.mid-inner-box:hover {
+    background: #1370b5;
+}
+#our-services strong,.site-footer .widget-area a:hover,a.showcoupon, .woocommerce-message::before{
+    color: #014c8c;
+}
+.middle-sec-box a {
+    font-size: 15px;
+}
+nav.woocommerce-MyAccount-navigation ul li{
+    background: #1370b5 !important;
+}
+.entry-content ul, .entry-content ol{
+    padding: 0;
+}
+.load :first-child{
+    background:#1370b5;
+    animation-delay:-1.5s;
+}
+.load :nth-child(2){
+    background:#25304c;
+    animation-delay:-1s;
+}
+.load :nth-child(3){
+    background:#1370b5;
+    animation-delay:-0.5s;
+}
+.load :last-child{
+    background:#25304c;
+}
+.menu_box.fixed{
+  border-radius: 0px;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 720px) and (min-width: 320px){
+    #middle-sec{
+        margin: 30px 0;
+    }
+    #slider .carousel-caption {
+        left: 15%;
+        right: 15%;
+    }
+    .inner_carousel p{
+        display: none;
+    }
+    #slider .inner_carousel h2{
+        font-size: 22px;
+    }
+    #our-services h3{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .toggle-nav {
+        background: transparent;
+        text-align: right;
+    }
+    .logo,#mySidenav{
+        text-align: left;
+    }
+    .sidenav{
+        background: #1370b5;
+    }
+    .toggle-nav button {
+        background: #25304c;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .main-nav li,.main-nav ul li:last-child {
+        border-bottom: solid 1px #4c64ad;
+    }
+    .toggle-nav button:focus{
+        outline: 5px auto #193791;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 721px){
+    #middle-sec{
+        margin: 30px 0;
+    }
+    #our-services h3{
+        width: 100%;
+    }
+    #slider .carousel-caption {
+        left: 30%;
+        right: 20%;
+    }
+}

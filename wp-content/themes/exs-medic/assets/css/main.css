@@ -1,0 +1,154 @@
+/*ExS Medic Styles*/
+.singular .comment-content a:not([class]),
+.singular #layout article .entry-content a:not([class]){
+	text-decoration: underline;
+}
+
+.singular .comment-content a:not([class]):hover,
+.singular #layout article .entry-content a:not([class]):hover{
+	text-decoration: none;
+}
+
+body{
+	background-color: var(--colorBackground);
+}
+
+#box{
+	max-width: 1400px;
+	margin: 0 auto;
+	background-color: var(--colorLight);
+	box-shadow: 0 0 100px 0 rgba(100, 100, 100, .15);
+}
+
+@media screen and (max-width: 1420px) {
+	#box{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+#header.affix{
+	left: 15px;
+	right: 15px;
+}
+
+@media (min-width: 1420px) {
+	#header.affix{
+		width: 1400px;
+		left: auto;
+		right: auto;
+	}
+}
+
+.alignwide{
+	width: 100%;
+	margin: 0;
+}
+
+@media (max-width: 1419px) {
+	.alignfull.section,
+	.alignfull{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (min-width: 1420px) {
+	.alignfull{
+		max-width: 1400px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		left: -145px;
+		right: -130px;
+	}
+
+	.container-1400 .alignfull{
+		left: -15px;
+		right: 0;
+	}
+
+	.container-960 .alignfull{
+		left: -235px;
+		right: -220px;
+	}
+
+	.container-720 .alignfull{
+		left: -355px;
+		right: -340px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	body.side-nav-left.side-nav-sticked{
+		padding-left: 290px;
+	}
+
+	body.side-nav-right.side-nav-sticked{
+		padding-right: 290px;
+	}
+
+	#side_nav.sticked ~ #box{
+		margin-left: auto;
+		margin-right: auto;
+		width: 960px;
+		max-width: 100%;
+	}
+
+	#side_nav.sticked ~ * #header.affix,
+	#side_nav.sticked.header-over-side-nav ~ * #header,
+	#side_nav.sticked.right.header-over-side-nav ~ * #header{
+		margin: 0;
+		width: 960px;
+		max-width: 100%;
+		left: auto;
+		right: auto;
+	}
+
+	#side_nav.sticked.header-over-side-nav #nav_side{
+		padding-top: 2em;
+	}
+
+	.side-nav-sticked .alignfull{
+		width: 960px;
+		margin-right: 0;
+		margin-left: -15px;
+		left: 0;
+		right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.side-nav-sticked .alignfull .alignfull{
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#side_nav.sticked ~ #box{
+		width: 1200px;
+	}
+
+	#side_nav.sticked ~ * #header.affix,
+	#side_nav.sticked.header-over-side-nav ~ * #header,
+	#side_nav.sticked.right.header-over-side-nav ~ * #header{
+		width: 1200px;
+	}
+
+	.side-nav-sticked .alignfull{
+		width: 1200px;
+		margin-left: -30px;
+	}
+}
+
+.container,
+.container-fluid{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.wp-block-cover__inner-container{
+	padding-left: 15px;
+	padding-right: 15px;
+}

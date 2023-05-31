@@ -1,0 +1,86 @@
+/*font family*/
+.main-banner-section h1 ,.main-banner-section p, .main-service-section h2, .main-banner-section .wp-block-button__link,.about-us-section h3,.about-us-section .wp-block-button__link{
+font-family: 'Ubuntu', sans-serif !important;
+}
+/*banner section*/
+.main-banner-section h1{
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin: 0px !important;
+}
+.main-banner-sectio p{
+    margin: 0px !important;
+}
+.main-banner-section .wp-block-button__link{
+    padding: 15px 25px;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+.main-banner-section .wp-block-button__link:hover{
+    background: #000 !important;
+}
+/*service section*/
+.main-service-section h2{
+    font-weight: bolder;
+}
+.main-service-section{
+    margin-top: -8em;
+    gap: 0em !important;
+}
+.service-section-text:nth-child(odd){
+    opacity: 0.92 !important;
+    background-repeat: no-repeat !important;
+    margin: -2px !important;
+    background-size: 100% 100% !important;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+    padding: 4em 1em;
+    width: 25%;
+    z-index: 1;
+}
+.service-section-text:nth-child(even){
+    opacity: 0.92 !important;
+    background-repeat: no-repeat !important;
+    margin: -2px !important;
+    background-size: 100% 100% !important;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    padding: 4em 1em;
+    width: 25%;
+    z-index: 1;
+}
+ .block-editor-block-list__block {
+    justify-content: center;
+}
+.service-section-text .wp-block-buttons:before{
+    padding: 6px 10px;
+    border-radius: 50%;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f061";
+    justify-content: center;
+    background: #fff;
+    color: #1776c6;
+}
+ .service-section-text .wp-block-button__link{
+    display: none !important;
+ }
+ /*about us*/
+ .about-us-section h3{
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: -60px;
+}
+.about-us-section p{
+     line-height: 2;
+     margin: 0px !important;
+}
+.about-us-section .wp-block-button__link{
+    padding: 15px 25px;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+.about-us-section .wp-block-button__link:hover{
+    background-color: #000 !important;
+}
+.about-us-section .wp-block-buttons{
+    margin: 0px !important;
+ }

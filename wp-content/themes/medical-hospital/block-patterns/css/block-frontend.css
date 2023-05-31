@@ -1,0 +1,93 @@
+/*banner section*/
+.main-banner-section h1{
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.main-banner-section a.wp-block-button__link{
+    padding: 15px 25px;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+.main-banner-section a.wp-block-button__link:hover{
+    background: #000;
+}
+/*service section*/
+.main-service-section h2{
+    display: block;
+    font-weight: bolder;
+    position: relative;
+}
+.service-section-text .wp-block-buttons{
+    justify-content: center;
+}
+.service-section-text .wp-block-buttons:before{
+    padding: 6px 10px;
+    border-radius: 50%;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f061";
+    justify-content: center;
+    background: #fff;
+    color: #1776c6;
+}
+.main-service-section{
+    margin-top: -10em;
+    gap: 0em !important;
+}
+.service-section-text:nth-child(odd){
+    opacity: 0.92 !important;
+    background-repeat: no-repeat !important;
+    margin: -2px !important;
+    background-size: 100% 100% !important;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+    padding: 4em 1em;
+    width: 25%;
+    z-index: 1;
+}
+.service-section-text:nth-child(even){
+    opacity: 0.92 !important;
+    background-repeat: no-repeat !important;
+    margin: -2px !important;
+    background-size: 100% 100% !important;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    padding: 4em 1em;
+    width: 25%;
+    z-index: 1;
+}
+/*about us*/
+.about-us-small-img img{
+    width:auto;
+}
+.about-us-section h3{
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: -8px;
+}
+.about-us-section p{
+    line-height: 2;
+}
+.about-us-section a{
+    padding: 15px 25px;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+.about-us-section a:hover{
+    background-color: #000 !important;
+}
+/*responsive*/
+@media screen and (max-width: 720px) {
+    .main-service-section {
+        margin-top: 0em;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    .main-service-section {
+        flex-wrap: nowrap !important;
+    }
+    .about-us-section .wp-block-columns{
+        flex-wrap: nowrap !important;
+    }
+    .main-service-section {
+        margin-top: -10em;
+    }
+}
